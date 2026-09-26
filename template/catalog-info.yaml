@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.app_name}}
+  description: A Python App That Displays Time , named ${{values.app_name}}
+  annotations:
+    github.com/project-slug: yashwanthv-oss/${{values.app_name}}
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
