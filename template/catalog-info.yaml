@@ -5,6 +5,7 @@ metadata:
   description: A Python App That Displays Time , named ${{values.app_name}}
   annotations:
     github.com/project-slug: yashwanthv-oss/${{values.app_name}}
+    jira.com/project-key: SC
   # Example for optional annotations
   # annotations:
   #   github.com/project-slug: backstage/backstage
